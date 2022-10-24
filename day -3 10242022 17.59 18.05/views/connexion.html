@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <link rel="stylesheet" href="../style/style_connexion.css" />
+    <title>Connexion</title>
+    <style>
+
+
+
+    </style>
+</head>
+<body class="p-3 m-0 border-0 bd-example">
+    <nav>
+        <p class="font-weight-bold text-light" style="font-size: 20px;">WERJ</p>
+    </nav>
+    <div class="rest-of-page">
+
+    </div>
+    <hr>
+    <h1 class="text-light text-center">Identification</h1><br><br>
+    
+        <form action="../modele/connexionn.php" method="post">
+            <div class="container mt-5">
+                <div class="row">
+                    <div class="col-sm-5 m-auto">
+                        <div class="card">
+                            <div class="card-body">
+                                
+                                
+                                <div class="form-group mb-3">
+                                    <div class="input-group input-group mb-3 w-100 flex-nowrap">
+                                        <span class="input-group-text" id="addon-wrapping">@</span>
+                                        <input class="form-control w-75 p-3" aria-describedby="addon-wrapping" type ="email" name="mail" placeholder="Tapez votre mail" required><br><br>
+                                </div>
+                                </div>
+                                <br>
+                                <div class="form-group mb-3">
+                                    <div class="input-group input-group mb-3 w-100 flex-nowrap">
+                                        <span class="input-group-text">Password</span>
+                                        <input class="form-control" type="password" name="password" placeholder="Tapez votre Mot de passe" required><br><br>
+                                    </div>
+                                </div>
+                                <br><br><input style="margin-left: 37%;" class="btn btn-primary btn-lg" name="validate" type="submit" value="Connexion">
+                                
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </form>
+        
+    <br><br><br>
+    <P style="margin-left: 41%; color: white">&copy;WERJ 2022|Powered by Groupe 1 Bachelor 2 ECE</P>
+</body>
+</html>
